@@ -1,0 +1,62 @@
+body {
+  background-color: #1a1a1a; 
+  color: #e0e0e0; 
+  font-family: 'Arial', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1, h2 {
+  color: #a76bcf;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+}
+
+.login-register {
+  background-color: #282828;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px; 
+  background-color: #3d3d3d; 
+  color: #e0e0e0; 
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #a76bcf;
+  color: white;
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #9c5dcf; 
+}
+
+p {
+  color: #ffcc00; 
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  color: #e0e0e0;
+}
